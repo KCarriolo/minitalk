@@ -60,7 +60,7 @@ void	ft_delivery(char *str, int pid)
 void	ft_answer(int sig)
 {
 	if (sig == SIGUSR1)
-		write(1, "Just responding you back to assure the bonus :I", 47);
+		write(1, "Just responding you back to assure the bonus :I\n", 48);
 }
 
 void	ft_fin(int pid)
